@@ -243,4 +243,33 @@
         border-radius: 10px;
     }
 
+
+/* footer section bottom */
+.bottom-footer {
+    box-sizing: border-box;
+    height: 128px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0 6px;
+    margin: 0 auto;
+    height: 66px;
+    width: 95%;
+}
+
+.payment-footer {
+    align-items: left;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.body-bottom-bg {
+    max-width: 560px;
+    background-size: cover;
+    } 
+
 }
