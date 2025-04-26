@@ -1,0 +1,163 @@
+@media only screen and (max-width:640px) {
+
+
+    /*  header 1st and 2nd  */
+    .header-first {
+        height: 35px;
+        padding: 0;
+    }
+
+    .header-top {
+        height: 100%;
+        max-height: 35px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+    }
+
+    .header-top ul {
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .header-top ul li {
+        border-right: 1px solid #69bb90;
+        padding-right: 5px;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+    .left-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .left-section-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 0 5px; */
+        gap: 15px;
+    }
+
+    .right-section-content-list {
+        padding-right: 10px;
+    }
+
+    /* second header search display none and cart none */
+
+    .header-second {
+        padding: 10px 0;
+    }
+
+    .header-second-content {
+        height: 40px;
+    }
+
+
+    .header-second-content .logo img {
+        width: 100%;
+        height: auto;
+        max-width: 148px;
+    }
+
+    .searchbar-address {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 130px;
+    margin: 0;
+    }
+
+    .address {
+        border: #e6e6e6 1px solid;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        gap: 1px;
+        font-size: 18px;
+        color: #fff;
+        width: auto;
+        max-width: 170px;
+        padding: 5px 8px 6px 0px;
+        max-height: 40px;
+        box-shadow: #ece2e2 0px 0px 1px;
+    }
+
+    .address-first-location {
+        display: none;
+    }
+
+    .address-first {
+        font-size: 15px;
+    }
+
+    .address-second {
+        padding: 0 0 0 10px;
+    }
+
+    .address-second h6 {
+        font-size: 14px;
+        font-weight: bolder;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .cart-card {
+        display: none;
+    }
+
+
+/* banner section */
+
+.banner {
+    width: 95%;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0 15px;
+}
+
+.banner-text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1a1a1a;
+    text-align: center;
+
+}
+
+.banner-text h1 {
+    font-family: "quicksand", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    color: #121535;
+}
+
+.banner-text button{
+    font-family: "inter", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+}
