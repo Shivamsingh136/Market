@@ -80,7 +80,7 @@
         display: flex;
         align-items: center;
         gap: 1px;
-        font-size: 18px;
+        font-size: 12px;
         color: #fff;
         width: auto;
         max-width: 170px;
@@ -95,10 +95,11 @@
 
     .address-first {
         font-size: 15px;
+        margin-left: 0;
     }
 
     .address-second {
-        padding: 0 0 0 10px;
+        padding: 0 0 0 8px;
     }
 
     .address-second h6 {
@@ -106,6 +107,9 @@
         font-weight: bolder;
     }
 
+    .address-second h5 {
+        margin-left: 5px;
+    }
     .search-bar {
         display: none;
     }
