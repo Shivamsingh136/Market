@@ -251,22 +251,32 @@
 }
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: left;
     flex-wrap: wrap;
     gap: 4px;
     padding: 0 6px;
     margin: 0 auto;
-    height: 66px;
+    height: 70px;
     width: 95%;
+}
+.bottom-footer-copyright {
+    margin: 10px 0;
 }
 
 .payment-footer {
     align-items: left;
+    display: flow-root;
     flex-wrap: wrap;
     gap: 4px;
 }
 
+.payment-footer img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    max-height: 30px;
+}
 .body-bottom-bg {
     display: none;
     } 
