@@ -1346,3 +1346,10 @@ footer {
     max-height: 32px;
     border-radius: 10px;
 }
+
+.item-card-img-active {
+    border-radius: 100%;
+    background-color: #12791c;
+    align-content: center;
+   padding: 35px 0;
+}
