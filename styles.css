@@ -1174,8 +1174,7 @@ footer {
 }
 
 .body-bottom-bg {
-    max-width: 1260px;
-    background-size: cover;
+    display: none;
 }
 
 .footer-container {
