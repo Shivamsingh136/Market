@@ -247,7 +247,7 @@
 /* footer section bottom */
 .bottom-footer {
     box-sizing: border-box;
-    height: 128px;
+    height: 150px;
 }
 .footer-container {
     display: flex;
@@ -257,7 +257,7 @@
     gap: 4px;
     padding: 0 6px;
     margin: 0 auto;
-    height: 90px;
+    height: 120px;
     width: 95%;
 }
 .bottom-footer-copyright {
