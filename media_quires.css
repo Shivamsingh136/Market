@@ -311,56 +311,7 @@
     width: 38%;
   }
 
-}
 
-@media screen and (max-width: 600px) {
-  #root {
-
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  .topbar {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .toplinks {
-    display: none;
-  }
-
-  .topoptions {
-    max-width: 700px;
-  }
-
-  .topoptions .my {
-    text-align: right;
-  }
-
-  .search-bar {
-    display: none;
-  }
-
-  .icons {
-    display: none;
-  }
-
-  .nav-ul {
-    display: none;
-  }
-
-  .firstsection {
-    flex-direction: column;
-  }
-
-  .rightsection img {
-    width: 100%;
-  }
-
-  .fresh-section {
-    padding: 0 10px;
-  }
 
   .card {
     width: 100%;
