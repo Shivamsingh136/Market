@@ -268,8 +268,7 @@
 }
 
 .body-bottom-bg {
-    max-width: 560px;
-    background-size: cover;
+    display: none;
     } 
 
 }
