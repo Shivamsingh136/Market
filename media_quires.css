@@ -311,7 +311,9 @@
   }
 
   .product-card {
-    width: 35%;
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
   }
 
 
@@ -375,7 +377,7 @@
 
   .section-header a {
     font-size: 12px;
-    margin-left: 15px;
+    padding-left: 15px;
   }
 
   .snacks-card {

@@ -588,6 +588,10 @@ section {
    /* padding: 0 20px; */
    width: 100%;
    margin-top: 30px;
+}
+
+.flash-section-header h2{
+    padding: 0 ;
 
 }
 
@@ -744,9 +748,9 @@ section {
 
 .card-container {
     display: flex;
-    gap: 15px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 15px;
+    padding: 15px 0px;
 }
 
 .product-card {
@@ -757,7 +761,7 @@ section {
     padding: 15px;
     position: relative;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    /* margin: 15px 20px; */
+    margin: 15px 0px;
 }
 
 .add-btn {
@@ -958,8 +962,7 @@ section {
     border-radius: 12px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    margin: 15px 20px;
-    width: 600px;
+    width: 45%;
 }
 
 .product-img img:hover {
