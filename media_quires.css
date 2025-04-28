@@ -298,7 +298,10 @@
     flex-direction: column;
   }
 .img-flash img {
-  margin-top: 5px;
+  display: none;
+}
+.section-header a {
+  display: none;
 }
   
   .snacks-card-container img {
@@ -316,6 +319,9 @@
     margin: 10px 0;
   }
 
+  .img-offer {
+    display: none;
+  }
 
 
   .card {
@@ -355,8 +361,8 @@
   }
 
   .product-card-daily {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 80%;
+    margin-bottom: 10px;
   }
 
 
